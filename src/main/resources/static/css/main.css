@@ -1,0 +1,26 @@
+.btn-bd-yellow {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bc-cat-01);
+    --bs-btn-border-color: var(--bc-pt-yl-d);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var( --bc-wb-650);
+    --bs-btn-hover-bg: var(--bs-white);
+    --bs-btn-hover-border-color: var(--bc-pt-yl-d);
+    --bs-btn-focus-shadow-rgb: var(--bc-pt-yl-d);
+    --bs-btn-active-color: var(--bc-pt-yl-d);
+    --bs-btn-active-bg: var(--bs-white);
+    --bs-btn-active-border-color: var(--bc-pt-yl-d);
+  }
+
+.loading{
+
+    z-index: 100;
+}
+
+.loading-logo{
+    width:100px;
+    height:100px;
+    margin-left:-50px;
+    margin-top: -50px;
+}

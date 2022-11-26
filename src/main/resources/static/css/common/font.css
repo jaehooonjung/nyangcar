@@ -1,0 +1,63 @@
+/*어비 찌바체 : 손글씨체*/
+@font-face {
+    font-family: 'UhBeeZZIBA-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/UhBeeZZIBA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*고양체 : 손글씨체*/
+@font-face {
+    font-family: 'Goyang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Goyang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*고양덕양체 : 고딕체 : 두꺼움*/
+@font-face {
+    font-family: 'GoyangDeogyang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangDeogyang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*고양일산체 : 고딕체 : 얇음*/
+@font-face {
+    font-family: 'GoyangIlsan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*리디바탕 : 명조체 : 중간*/
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-h-UhBee{
+    font-family: 'UhBeeZZIBA-Regular';
+}
+
+.font-h-Goyang{
+    font-family: 'Goyang';
+}
+
+.font-g-Deo{
+    font-family: 'GoyangDeogyang';
+}
+
+.font-g-Ilsan{
+    font-family: 'GoyangIlsan';
+}
+
+.font-m-Ridi{
+    font-family: 'RIDIBatang';
+}
+
+*{
+    font-family: 'GoyangIlsan';
+}

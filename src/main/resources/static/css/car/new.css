@@ -1,0 +1,14 @@
+.btn-bd-purple {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color:  var( --bc-wb-650);
+    --bs-btn-bg: var(--bs-white);
+    --bs-btn-border-color: var(--bc-pt-pp-d);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var( --bc-wb-650);
+    --bs-btn-hover-bg: var(--bc-pt-pp-d);
+    --bs-btn-hover-border-color: var(--bs-white);
+    --bs-btn-focus-shadow-rgb: var(--bc-pt-yl-d);
+    --bs-btn-active-color: var(--bs-white);
+    --bs-btn-active-bg: var(--bc-pt-pp-d);
+    --bs-btn-active-border-color: var(--bc-pt-pp-d);
+  }

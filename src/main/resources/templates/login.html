@@ -1,0 +1,114 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="fragment/header :: main-head"></head>
+<th:block layout:fragment="title">
+	<title>냥카</title>
+</th:block>
+<th:block layout:fragment="add-css">
+	<link rel="stylesheet" th:href="@{/css/login.css}" />
+</th:block>
+
+<body style="background-color: #f5f6f7">
+	<div
+		class="container-fluid p-0 w-100 d-flex justify-content-center vh-100">
+		<div class="base-width m-0 backgroundColorWB0 w-100 h-100">
+		<!-- button -->
+			<div class="position-relative w-100 d-flex justify-content-end">
+				<div class="text-center me-3  mt-3 position-absolute">
+					<button class="btn btn-bc-grey text-center">
+						처음 온 집사 <i class="fa-solid fa-angles-right fa-beat"></i>
+					</button>
+				</div>
+			</div>
+			<!--logo-->
+			<div class="d-flex justify-content-center mt-3 mb-3">
+				<h1 class="fontColor font-h-UhBee ms-2">냥카</h1>
+				<img src="../img/foot.png" width="30" height="30" />
+			</div>
+			
+			<!--main-->
+			<div>
+				<ul class="nav nav-tabs justify-content-center" id="loginTab"
+					role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="nav-link active nav-link-color" id="maininfo-tab"
+							data-bs-toggle="tab" data-bs-target="#maininfo" type="button"
+							role="tab" aria-controls="maininfo" aria-selected="true">
+							집사</button>
+					</li>
+					<li class="nav-item">
+						<button class="nav-link nav-link-color" id="subinfo-tab"
+							data-bs-toggle="tab" data-bs-target="#subinfo" type="button"
+							role="tab" aria-controls="subinfo" aria-selected="false">
+							랜선집사</button>
+					</li>
+				</ul>
+				<!--내용-->
+				<div class="tab-content" id="tabContent">
+					<div class="tab-pane fade show active p-3" id="maininfo"
+						role="tabpanel" aria-labelledby="maininfo-tab">
+						<div>
+							<div class="text-center mb-2 mt-4">
+								<h2 class="font-h-UhBee">누구냥?</h2>
+							</div>
+						</div>
+						<div class="text-center">
+							<img src="img/cat9.png" class="m-auto"
+								style="height: 200px; width: 200px" />
+						</div>
+
+
+						<form action="/chat" method="get">
+							<div class="form-floating mb-3">
+								<input type="text" class="form-control" id="floatingInput"
+									placeholder="id" /> <label for="floatingInput">ID</label>
+							</div>
+							<div class="form-floating">
+								<input type="password" class="form-control"
+									id="floatingPassword" placeholder="Password" /> <label
+									for="floatingPassword">Password</label>
+							</div>
+							<div class="text-center mb-2 mt-4">
+								<button class="btn btn-bc-pink text-center w-100">조회</button>
+							</div>
+						</form>
+						<div class="text-center">
+							<a href="#" class="link-secondary">접수번호 찾기</a>
+							<div class="vr"></div>
+							<a href="#" class="link-secondary">비밀번호 초기화</a>
+						</div>
+					</div>
+					<div class="tab-pane fade p-3" id="subinfo" role="tabpanel"
+						aria-labelledby="subinfo-tab">
+						<div class="text-center">
+							<img src="img/cat9.png" class="m-auto"
+								style="height: 200px; width: 200px" />
+						</div>
+						<form action="#">
+							<div class="form-floating mb-3">
+								<input type="text" class="form-control" id="floatingInput"
+									placeholder="id" /> <label for="floatingInput">ID</label>
+							</div>
+							<div class="form-floating">
+								<input type="password" class="form-control"
+									id="floatingPassword" placeholder="Password" /> <label
+									for="floatingPassword">Password</label>
+							</div>
+							<div class="text-center mb-2  mt-4">
+								<button class="btn btn-bc-pink text-center w-100">조회</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+		crossorigin="anonymous"></script>
+</body>
+</html>

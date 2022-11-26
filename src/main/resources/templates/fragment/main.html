@@ -1,0 +1,79 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:replace="fragment/header :: main-head"></head>
+<th:block layout:fragment="title">
+	<title>입점문의 시스템</title>
+</th:block>
+<th:block layout:fragment="add-css">
+	<link rel="stylesheet" th:href="@{/css/main.css}" />
+</th:block>
+<body>
+	<main>
+		<div class="base">
+			<div class="pt-5">
+				<img src="img/mart_bg.jpg" class="img_bg">
+			</div>
+			<div class="setHeader-middle">
+				<div class="setHeader-right">
+					<div class="setHeader-logo">
+						<img src="img/logo.png" class="img-header-logo">
+						<p class="p-header">입점 문의 시스템</p>
+					</div>
+
+					<div class="backgrounColorWhite setHeader-bg">
+						<form id="indexFrom" class="setHeader-form" method="post"
+							action="/security/reperence/login">
+							<label><p>접수번호</p> <input type="text" class="input-style"
+								id="receipt" name="receipt" required placeholder="입력하세요"
+								size="30"></label> <label><p>비밀번호</p> <input
+								type="password" class="input-style" id="password"
+								name="password" required placeholder="입력하세요" size="30"></label>
+
+							<br>
+							<p style="color: red; font-size: 1em; margin: 0.5em" th:utext="${msg}">test</p>
+							<input type="submit" class="btn-style" th:style="${msg==null?'margin-top:1em':''}" value="조회">
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="setMain-middle">
+				<strong><p>절차 안내</p></strong>
+
+				<div class="setMain-All-circle">
+					<div class="setMain-circle">
+						<p>1단계</p>
+					</div>
+					<div class="setMain-circle">
+						<p>2단계</p>
+					</div>
+					<div class="setMain-circle">
+						<p>3단계</p>
+					</div>
+					<div class="setMain-circle">
+						<p>4단계</p>
+					</div>
+					<div class="setMain-circle">
+						<p>5단계</p>
+					</div>
+					<div class="setMain-circle">
+						<p>6단계</p>
+					</div>
+				</div>
+
+				<div class="setMain-btn">
+					<button onclick="location.href='/proof'" class="btn-style">
+						입점문의하러가기 <i class="fa-solid fa-angles-right"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="setFooter-cr">
+			<p>COPYRIGHT(C) TRIAL. ALL RIGHTS RESERVED.</p>
+		</div>
+	</footer>
+</body>
+</html>

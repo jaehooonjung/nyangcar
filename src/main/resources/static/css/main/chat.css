@@ -1,0 +1,9 @@
+.chat-height{
+    min-height:30px;
+    max-width: max-content;
+}
+
+.chat-sky{
+    border: 1px solid var(--bc-pt-sy-d);
+    border-radius: 20px;
+}

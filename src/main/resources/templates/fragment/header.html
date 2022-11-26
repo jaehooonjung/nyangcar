@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head th:fragment="main-head">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+
+
+<th:block layout:fragment="title"></th:block>
+
+<link rel="manifest" th:href="@{/manifest.json}">
+<link rel="icon" sizes="192x192" th:href="@{/img/favicon/android-icon-192x192.png}">
+<link rel="icon" sizes="180x180" th:href="@{/img/favicon/apple-icon-180x180.png}">
+<meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ffffff"/>
+
+<link rel="stylesheet" th:href="@{/css/common/color.css}" />
+<link rel="stylesheet" th:href="@{/css/common/font.css}" />
+<link rel="stylesheet" th:href="@{/css/common/common.css}" />
+<link rel="stylesheet" th:href="@{/css/scss/base.css}" />
+<th:block layout:fragment="add-css"></th:block>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+	crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/cbdef36381.js"
+	crossorigin="anonymous"></script>
+<!-- CSS only -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+	crossorigin="anonymous" />
+</head>
+</html>

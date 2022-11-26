@@ -1,0 +1,52 @@
+.backgroundColorPastelPurple{
+    background-color: #D0C6E9;
+}.backgroundColorPastelPink{
+    background-color: #FAD6DD;
+}.backgroundColorPastelYellow{
+    background-color: #FFF9BE;
+}.backgroundColorPastelGreen{
+    background-color: #E0FADF;
+}.backgroundColorPastelSky{
+    background-color: #95E2EC;
+}.backgroundColorPastelBlue{
+    background-color: #88c5fa;
+}
+.backgroundColorGradiation100{
+    background: linear-gradient(-45deg, #FBF0EA , #B0E1FA );
+}
+
+.backgroundColorWB0{background-color: #FFFFFF;}
+.backgroundColorWB50{background-color: #F0F0F0;}
+.backgroundColorWB100{background-color: #E0E0E0;}
+.backgroundColorWB150{background-color: #D0D0D0;}
+.backgroundColorWB200{background-color: #C0C0C0;}
+.backgroundColorWB250{background-color: #B0B0B0;}
+.backgroundColorWB300{background-color: #A0A0A0;}
+.backgroundColorWB350{background-color: #909090;}
+.backgroundColorWB400{background-color: #808080;}
+.backgroundColorWB450{background-color: #707070;}
+.backgroundColorWB500{background-color: #606060;}
+.backgroundColorWB550{background-color: #505050;}
+.backgroundColorWB600{background-color: #404040;}
+.backgroundColorWB650{background-color: #303030;}
+.backgroundColorWB700{background-color: #202020;}
+.backgroundColorWB750{background-color: #101010;}
+.backgroundColorWB800{background-color: #000000;}
+
+.fontColorWB0{color: #FFFFFF;}
+.fontColorWB50{color: #F0F0F0;}
+.fontColorWB100{color: #E0E0E0;}
+.fontColorWB150{color: #D0D0D0;}
+.fontColorWB200{color: #C0C0C0;}
+.fontColorWB250{color: #B0B0B0;}
+.fontColorWB300{color: #A0A0A0;}
+.fontColorWB350{color: #909090;}
+.fontColorWB400{color: #808080;}
+.fontColorWB450{color: #707070;}
+.fontColorWB500{color: #606060;}
+.fontColorWB550{color: #505050;}
+.fontColorWB600{color: #404040;}
+.fontColorWB650{color: #303030;}
+.fontColorWB700{color: #202020;}
+.fontColorWB750{color: #101010;}
+.fontColorWB800{color: #000000;}
